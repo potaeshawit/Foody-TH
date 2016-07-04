@@ -8,28 +8,33 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class LoginVC: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet var usernameField: UITextField!
+    @IBOutlet var passwordField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        usernameField.delegate = self
+        passwordField.delegate = self
+        
+        let tab = UITapGestureRecognizer(target: self, action: #selector(LoginVC.dismissKeyboard))
+        self.view.addGestureRecognizer(tab)
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
-    */
-
+    
+    func dismissKeyboard() {
+        self.view.endEditing(true)
+    }
+    
 }
