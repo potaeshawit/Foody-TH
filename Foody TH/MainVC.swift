@@ -12,9 +12,13 @@ class MainVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
 
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -24,5 +28,10 @@ class MainVC: UIViewController {
     @IBAction func loginAction(sender: AnyObject) {
         let vc = LoginVC()
         self.presentViewController(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func registerAction(sender: AnyObject) {
+        let vc = RegisterVC()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
