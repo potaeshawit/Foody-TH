@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (3.4.0)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - Canvas (0.1.2)
+  - DLRadioButton (1.4.8)
+  - ImageSlideshow (0.4.0):
+    - ImageSlideshow/Core (= 0.4.0)
+  - ImageSlideshow/Alamofire (0.4.0):
+    - AlamofireImage (~> 2.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (0.4.0)
+  - RSKImageCropper (1.5.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - Canvas
+  - DLRadioButton (~> 1.4)
+  - ImageSlideshow (~> 0.4)
+  - ImageSlideshow/Alamofire
+  - RSKImageCropper
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  DLRadioButton: 8fe4865b3ea8a5236e1d114dd283dd0884d3dc46
+  ImageSlideshow: 0d3632bc0c2b4d3fff24a49ce4d3022af8238b03
+  RSKImageCropper: edd65fedb3734332818deb139906d6b7f54b8a44
+
+PODFILE CHECKSUM: aaeb11de614342464a30b1309db8b49437e360fa
+
+COCOAPODS: 1.0.0
