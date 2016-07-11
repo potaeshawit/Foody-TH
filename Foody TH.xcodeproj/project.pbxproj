@@ -15,6 +15,7 @@
 		8DEC73A51D2EADF70014A213 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DEC73A31D2EADF70014A213 /* RegisterVC.xib */; };
 		8DEC73A81D2EB2F90014A213 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC73A71D2EB2F90014A213 /* UIImageExtension.swift */; };
 		8DEC73AA1D2EB35E0014A213 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC73A91D2EB35E0014A213 /* UIColorExtension.swift */; };
+		AC2841A81D33EECE0020ABF8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2841A71D33EECE0020ABF8 /* BaseViewController.swift */; };
 		ACF1C0741D278FE300EA19C6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1C0721D278FE300EA19C6 /* LoginVC.swift */; };
 		ACF1C0751D278FE300EA19C6 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF1C0731D278FE300EA19C6 /* LoginVC.xib */; };
 		ACF1C0781D27DBC900EA19C6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1C0771D27DBC900EA19C6 /* MainVC.swift */; };
@@ -50,6 +51,7 @@
 		8DEC73A31D2EADF70014A213 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 		8DEC73A71D2EB2F90014A213 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		8DEC73A91D2EB35E0014A213 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		AC2841A71D33EECE0020ABF8 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		ACF1C0721D278FE300EA19C6 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		ACF1C0731D278FE300EA19C6 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		ACF1C0771D27DBC900EA19C6 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			children = (
 				8DEC73A61D2EB2E90014A213 /* Extension */,
 				8D288EE41D26C7C400D72697 /* AppDelegate.swift */,
+				AC2841A71D33EECE0020ABF8 /* BaseViewController.swift */,
 			);
 			name = "Center Class";
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				ACF1C0781D27DBC900EA19C6 /* MainVC.swift in Sources */,
 				8DEC73A81D2EB2F90014A213 /* UIImageExtension.swift in Sources */,
 				ACF1C0741D278FE300EA19C6 /* LoginVC.swift in Sources */,
+				AC2841A81D33EECE0020ABF8 /* BaseViewController.swift in Sources */,
 				8DEC73AA1D2EB35E0014A213 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

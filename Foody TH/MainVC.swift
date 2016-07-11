@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainVC: UIViewController {
+class MainVC: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +27,11 @@ class MainVC: UIViewController {
 
     @IBAction func loginAction(sender: AnyObject) {
         let vc = LoginVC()
-        self.presentViewController(vc, animated: true, completion: nil)
+        self.pushViewController(vc)
     }
     
     @IBAction func registerAction(sender: AnyObject) {
         let vc = RegisterVC()
-        self.navigationController?.pushViewController(vc, animated: true)
+        self.pushViewController(vc)
     }
 }
