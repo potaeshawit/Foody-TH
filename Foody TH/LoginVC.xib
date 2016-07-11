@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_login" translatesAutoresizingMaskIntoConstraints="NO" id="sd6-pD-WBy">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <rect key="frame" x="0.0" y="0.0" width="326" height="568"/>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDT-QE-EXn">
                     <rect key="frame" x="0.0" y="213" width="320" height="142"/>
@@ -203,7 +203,7 @@
                 <constraint firstItem="vDT-QE-EXn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5xL-o0-IGQ"/>
                 <constraint firstItem="J1b-WM-YEh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="94" id="6o7-HO-lEa"/>
                 <constraint firstItem="vDT-QE-EXn" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="7hU-ul-jKx"/>
-                <constraint firstAttribute="trailing" secondItem="sd6-pD-WBy" secondAttribute="trailing" id="DZq-kb-w0g"/>
+                <constraint firstAttribute="trailing" secondItem="sd6-pD-WBy" secondAttribute="trailing" constant="-6" id="DZq-kb-w0g"/>
                 <constraint firstItem="J1b-WM-YEh" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="100:320" id="Et8-Y1-mMO"/>
                 <constraint firstItem="6hg-a6-Xyy" firstAttribute="top" secondItem="vDT-QE-EXn" secondAttribute="bottom" constant="47" id="Pxj-sf-Nw6"/>
                 <constraint firstItem="WVe-bU-UDR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XMm-7S-QRr"/>
