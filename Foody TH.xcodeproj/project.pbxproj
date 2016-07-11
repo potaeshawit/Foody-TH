@@ -103,11 +103,12 @@
 		8D288EE31D26C7C400D72697 /* Foody TH */ = {
 			isa = PBXGroup;
 			children = (
+				8D288EE41D26C7C400D72697 /* AppDelegate.swift */,
+				ACF1C0771D27DBC900EA19C6 /* MainVC.swift */,
+				8D288EE81D26C7C400D72697 /* Main.storyboard */,
 				ACF1C0761D27A15100EA19C6 /* Center Class */,
 				ACF1C0711D278FCB00EA19C6 /* Login */,
 				ACF1C0701D278F8400EA19C6 /* Registration */,
-				ACF1C0771D27DBC900EA19C6 /* MainVC.swift */,
-				8D288EE81D26C7C400D72697 /* Main.storyboard */,
 				8D288F121D26C7D500D72697 /* Supporting Files */,
 			);
 			path = "Foody TH";
@@ -156,6 +157,7 @@
 				8DEC73A61D2EB2E90014A213 /* Extension */,
 				8D288EE41D26C7C400D72697 /* AppDelegate.swift */,
 				AC2841A71D33EECE0020ABF8 /* BaseViewController.swift */,
+
 			);
 			name = "Center Class";
 			sourceTree = "<group>";
