@@ -11,6 +11,10 @@ import UIKit
 
 class FoodSearchVC : BaseViewController {
     
+    @IBOutlet var ingredientSearchBt: UIButton!
+    @IBOutlet var categorySearchBt: UIButton!
+    @IBOutlet var uiView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,5 +29,9 @@ class FoodSearchVC : BaseViewController {
         return .LightContent
     }
     
+    @IBAction func ingredientSearchAction(sender: AnyObject) {
+    }
     
+    @IBAction func categorySearchAction(sender: AnyObject) {
+    }
 }
