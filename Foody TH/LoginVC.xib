@@ -186,6 +186,9 @@
                     <state key="normal" title="เข้าสู่ระบบ">
                         <color key="titleColor" red="0.96862745100000003" green="0.45882352939999999" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="loginAction:" destination="-1" eventType="touchUpInside" id="OSL-1c-bpn"/>
+                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_login" translatesAutoresizingMaskIntoConstraints="NO" id="J1b-WM-YEh">
                     <rect key="frame" x="110" y="94" width="100" height="100"/>

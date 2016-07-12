@@ -8,16 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3155A9394BCD3D979CFA0D49 /* Pods_Foody_THUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E654884D1CD71DCD3F1D0AC /* Pods_Foody_THUITests.framework */; };
-		8D0EF5151D33F3E00061B7F6 /* RandomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EF5141D33F3E00061B7F6 /* RandomVC.swift */; };
 		8D0EF51B1D33F3EF0061B7F6 /* FoodSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EF5161D33F3EF0061B7F6 /* FoodSearchVC.swift */; };
-		8D0EF51C1D33F3EF0061B7F6 /* IngredientsSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EF5171D33F3EF0061B7F6 /* IngredientsSearch.swift */; };
-		8D0EF51D1D33F3EF0061B7F6 /* IngredientsSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EF5181D33F3EF0061B7F6 /* IngredientsSearch.xib */; };
 		8D0EF51E1D33F3EF0061B7F6 /* CategorySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EF5191D33F3EF0061B7F6 /* CategorySearch.swift */; };
 		8D0EF51F1D33F3EF0061B7F6 /* CategorySearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EF51A1D33F3EF0061B7F6 /* CategorySearch.xib */; };
+		8D0EF5221D33F7B70061B7F6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EF5201D33F7B70061B7F6 /* TabBarController.swift */; };
+		8D0EF5231D33F7B70061B7F6 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EF5211D33F7B70061B7F6 /* TabBarController.xib */; };
+		8D0EF5261D33F7FB0061B7F6 /* RandomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EF5241D33F7FB0061B7F6 /* RandomVC.swift */; };
+		8D0EF5271D33F7FB0061B7F6 /* RandomVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EF5251D33F7FB0061B7F6 /* RandomVC.xib */; };
+		8D0EF52A1D34030B0061B7F6 /* IngredientsSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EF5281D34030B0061B7F6 /* IngredientsSearchVC.swift */; };
+		8D0EF52B1D34030B0061B7F6 /* IngredientsSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EF5291D34030B0061B7F6 /* IngredientsSearchVC.xib */; };
+		8D0EF5351D34A05B0061B7F6 /* FoodSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EF5341D34A05B0061B7F6 /* FoodSearchVC.xib */; };
 		8D288EE51D26C7C400D72697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D288EE41D26C7C400D72697 /* AppDelegate.swift */; };
 		8D288EEA1D26C7C400D72697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D288EE81D26C7C400D72697 /* Main.storyboard */; };
 		8D288EEC1D26C7C400D72697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D288EEB1D26C7C400D72697 /* Assets.xcassets */; };
 		8D288EEF1D26C7C400D72697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D288EED1D26C7C400D72697 /* LaunchScreen.storyboard */; };
+		8D9C64DE1D34CC68003AB9DA /* CreateMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C64DC1D34CC68003AB9DA /* CreateMenuVC.swift */; };
+		8D9C64DF1D34CC68003AB9DA /* CreateMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9C64DD1D34CC68003AB9DA /* CreateMenuVC.xib */; };
+		8D9C64E21D34CC9D003AB9DA /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C64E01D34CC9D003AB9DA /* HomeVC.swift */; };
+		8D9C64E31D34CC9D003AB9DA /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9C64E11D34CC9D003AB9DA /* HomeVC.xib */; };
+		8D9C64E61D34CF85003AB9DA /* CreateMenuNotRgeistered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C64E41D34CF85003AB9DA /* CreateMenuNotRgeistered.swift */; };
+		8D9C64E71D34CF85003AB9DA /* CreateMenuNotRgeistered.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9C64E51D34CF85003AB9DA /* CreateMenuNotRgeistered.xib */; };
 		8DEC73A41D2EADF70014A213 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC73A21D2EADF70014A213 /* RegisterVC.swift */; };
 		8DEC73A51D2EADF70014A213 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DEC73A31D2EADF70014A213 /* RegisterVC.xib */; };
 		8DEC73A81D2EB2F90014A213 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC73A71D2EB2F90014A213 /* UIImageExtension.swift */; };
@@ -53,12 +63,16 @@
 		5E654884D1CD71DCD3F1D0AC /* Pods_Foody_THUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foody_THUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6145C5D2E72CE6A67F3F412C /* Pods-Foody TH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foody TH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foody TH/Pods-Foody TH.debug.xcconfig"; sourceTree = "<group>"; };
 		6F9AF2213C018EE1A5754E60 /* Pods-Foody THUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foody THUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foody THUITests/Pods-Foody THUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8D0EF5141D33F3E00061B7F6 /* RandomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomVC.swift; sourceTree = "<group>"; };
 		8D0EF5161D33F3EF0061B7F6 /* FoodSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSearchVC.swift; sourceTree = "<group>"; };
-		8D0EF5171D33F3EF0061B7F6 /* IngredientsSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsSearch.swift; sourceTree = "<group>"; };
-		8D0EF5181D33F3EF0061B7F6 /* IngredientsSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngredientsSearch.xib; sourceTree = "<group>"; };
 		8D0EF5191D33F3EF0061B7F6 /* CategorySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorySearch.swift; sourceTree = "<group>"; };
 		8D0EF51A1D33F3EF0061B7F6 /* CategorySearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategorySearch.xib; sourceTree = "<group>"; };
+		8D0EF5201D33F7B70061B7F6 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8D0EF5211D33F7B70061B7F6 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		8D0EF5241D33F7FB0061B7F6 /* RandomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomVC.swift; sourceTree = "<group>"; };
+		8D0EF5251D33F7FB0061B7F6 /* RandomVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RandomVC.xib; sourceTree = "<group>"; };
+		8D0EF5281D34030B0061B7F6 /* IngredientsSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsSearchVC.swift; sourceTree = "<group>"; };
+		8D0EF5291D34030B0061B7F6 /* IngredientsSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngredientsSearchVC.xib; sourceTree = "<group>"; };
+		8D0EF5341D34A05B0061B7F6 /* FoodSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodSearchVC.xib; sourceTree = "<group>"; };
 		8D288EE11D26C7C400D72697 /* Foody TH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foody TH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D288EE41D26C7C400D72697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D288EE91D26C7C400D72697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +81,12 @@
 		8D288EF01D26C7C400D72697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D288EF51D26C7C400D72697 /* Foody THTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foody THTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D288F001D26C7C400D72697 /* Foody THUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foody THUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9C64DC1D34CC68003AB9DA /* CreateMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMenuVC.swift; sourceTree = "<group>"; };
+		8D9C64DD1D34CC68003AB9DA /* CreateMenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateMenuVC.xib; sourceTree = "<group>"; };
+		8D9C64E01D34CC9D003AB9DA /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		8D9C64E11D34CC9D003AB9DA /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		8D9C64E41D34CF85003AB9DA /* CreateMenuNotRgeistered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMenuNotRgeistered.swift; sourceTree = "<group>"; };
+		8D9C64E51D34CF85003AB9DA /* CreateMenuNotRgeistered.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateMenuNotRgeistered.xib; sourceTree = "<group>"; };
 		8DEC73A21D2EADF70014A213 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		8DEC73A31D2EADF70014A213 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 		8DEC73A71D2EB2F90014A213 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
@@ -112,6 +132,10 @@
 		8D0EF5111D33F37E0061B7F6 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				8D0EF5201D33F7B70061B7F6 /* TabBarController.swift */,
+				8D0EF5211D33F7B70061B7F6 /* TabBarController.xib */,
+				8D0EF52E1D349DCC0061B7F6 /* Home */,
+				8D0EF52F1D349DD50061B7F6 /* CreateMenu */,
 				8D0EF5121D33F3940061B7F6 /* Random */,
 				8D0EF5131D33F39C0061B7F6 /* FoodSearch */,
 			);
@@ -121,7 +145,8 @@
 		8D0EF5121D33F3940061B7F6 /* Random */ = {
 			isa = PBXGroup;
 			children = (
-				8D0EF5141D33F3E00061B7F6 /* RandomVC.swift */,
+				8D0EF5241D33F7FB0061B7F6 /* RandomVC.swift */,
+				8D0EF5251D33F7FB0061B7F6 /* RandomVC.xib */,
 			);
 			name = Random;
 			sourceTree = "<group>";
@@ -130,12 +155,33 @@
 			isa = PBXGroup;
 			children = (
 				8D0EF5161D33F3EF0061B7F6 /* FoodSearchVC.swift */,
-				8D0EF5171D33F3EF0061B7F6 /* IngredientsSearch.swift */,
-				8D0EF5181D33F3EF0061B7F6 /* IngredientsSearch.xib */,
+				8D0EF5341D34A05B0061B7F6 /* FoodSearchVC.xib */,
 				8D0EF5191D33F3EF0061B7F6 /* CategorySearch.swift */,
 				8D0EF51A1D33F3EF0061B7F6 /* CategorySearch.xib */,
+				8D0EF5281D34030B0061B7F6 /* IngredientsSearchVC.swift */,
+				8D0EF5291D34030B0061B7F6 /* IngredientsSearchVC.xib */,
 			);
 			name = FoodSearch;
+			sourceTree = "<group>";
+		};
+		8D0EF52E1D349DCC0061B7F6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8D9C64E01D34CC9D003AB9DA /* HomeVC.swift */,
+				8D9C64E11D34CC9D003AB9DA /* HomeVC.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		8D0EF52F1D349DD50061B7F6 /* CreateMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8D9C64DC1D34CC68003AB9DA /* CreateMenuVC.swift */,
+				8D9C64DD1D34CC68003AB9DA /* CreateMenuVC.xib */,
+				8D9C64E41D34CF85003AB9DA /* CreateMenuNotRgeistered.swift */,
+				8D9C64E51D34CF85003AB9DA /* CreateMenuNotRgeistered.xib */,
+			);
+			name = CreateMenu;
 			sourceTree = "<group>";
 		};
 		8D288ED81D26C7C400D72697 = {
@@ -355,12 +401,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D288EEF1D26C7C400D72697 /* LaunchScreen.storyboard in Resources */,
+				8D9C64E31D34CC9D003AB9DA /* HomeVC.xib in Resources */,
+				8D9C64E71D34CF85003AB9DA /* CreateMenuNotRgeistered.xib in Resources */,
 				8D288EEC1D26C7C400D72697 /* Assets.xcassets in Resources */,
 				8D0EF51F1D33F3EF0061B7F6 /* CategorySearch.xib in Resources */,
-				8D0EF51D1D33F3EF0061B7F6 /* IngredientsSearch.xib in Resources */,
+				8D9C64DF1D34CC68003AB9DA /* CreateMenuVC.xib in Resources */,
 				ACF1C0751D278FE300EA19C6 /* LoginVC.xib in Resources */,
+				8D0EF5231D33F7B70061B7F6 /* TabBarController.xib in Resources */,
 				8D288EEA1D26C7C400D72697 /* Main.storyboard in Resources */,
+				8D0EF5271D33F7FB0061B7F6 /* RandomVC.xib in Resources */,
 				8DEC73A51D2EADF70014A213 /* RegisterVC.xib in Resources */,
+				8D0EF5351D34A05B0061B7F6 /* FoodSearchVC.xib in Resources */,
+				8D0EF52B1D34030B0061B7F6 /* IngredientsSearchVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,15 +561,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0EF51E1D33F3EF0061B7F6 /* CategorySearch.swift in Sources */,
+				8D9C64E21D34CC9D003AB9DA /* HomeVC.swift in Sources */,
 				8D288EE51D26C7C400D72697 /* AppDelegate.swift in Sources */,
 				8DEC73A41D2EADF70014A213 /* RegisterVC.swift in Sources */,
 				ACF1C0781D27DBC900EA19C6 /* MainVC.swift in Sources */,
 				8D0EF51B1D33F3EF0061B7F6 /* FoodSearchVC.swift in Sources */,
+				8D9C64E61D34CF85003AB9DA /* CreateMenuNotRgeistered.swift in Sources */,
 				8DEC73A81D2EB2F90014A213 /* UIImageExtension.swift in Sources */,
 				ACF1C0741D278FE300EA19C6 /* LoginVC.swift in Sources */,
+				8D0EF52A1D34030B0061B7F6 /* IngredientsSearchVC.swift in Sources */,
+				8D9C64DE1D34CC68003AB9DA /* CreateMenuVC.swift in Sources */,
 				AC2841A81D33EECE0020ABF8 /* BaseViewController.swift in Sources */,
-				8D0EF5151D33F3E00061B7F6 /* RandomVC.swift in Sources */,
-				8D0EF51C1D33F3EF0061B7F6 /* IngredientsSearch.swift in Sources */,
+				8D0EF5221D33F7B70061B7F6 /* TabBarController.swift in Sources */,
+				8D0EF5261D33F7FB0061B7F6 /* RandomVC.swift in Sources */,
 				8DEC73AA1D2EB35E0014A213 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

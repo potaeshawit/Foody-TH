@@ -21,8 +21,12 @@ class BaseViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func pushViewController(vc: UIViewController) {
+    func pushVC(vc: UIViewController) {
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func presentVC(vc: UIViewController) {
+        self.presentViewController(vc, animated: true, completion: nil)
     }
     
 

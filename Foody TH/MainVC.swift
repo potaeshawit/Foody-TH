@@ -27,11 +27,11 @@ class MainVC: BaseViewController {
 
     @IBAction func loginAction(sender: AnyObject) {
         let vc = LoginVC()
-        self.pushViewController(vc)
+        self.pushVC(vc)
     }
     
     @IBAction func registerAction(sender: AnyObject) {
         let vc = RegisterVC()
-        self.pushViewController(vc)
+        self.pushVC(vc)
     }
 }

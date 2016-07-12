@@ -1,14 +1,14 @@
 //
-//  RandomVC.swift
+//  CreateMenuNotRgeistered.swift
 //  Foody TH
 //
-//  Created by Layle <3 ~~~ on 7/11/2559 BE.
+//  Created by Layle <3 ~~~ on 7/12/2559 BE.
 //  Copyright © 2559 Achiraya Klinpipat. All rights reserved.
 //
 
 import UIKit
 
-class RandomVC: BaseViewController {
+class CreateMenuNotRgeistered: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +19,6 @@ class RandomVC: BaseViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return .LightContent
     }
     
 

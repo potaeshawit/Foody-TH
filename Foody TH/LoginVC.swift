@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginVC: UIViewController, UITextFieldDelegate {
+class LoginVC: BaseViewController, UITextFieldDelegate {
 
     @IBOutlet var usernameField: UITextField!
     @IBOutlet var passwordField: UITextField!
@@ -39,7 +39,7 @@ class LoginVC: UIViewController, UITextFieldDelegate {
         self.navigationController?.setNavigationBarHidden(false, animated: true)
         
         self.navigationController?.navigationBar.frame = CGRectMake(0, (self.navigationController?.navigationBar.frame.origin.y)!, screenSize.width, 45)
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage.imageWithColor(UIColor.colorFromHexString("#747676")), forBarMetrics: UIBarMetrics.Default)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage.imageWithColor(UIColor.clearColor()), forBarMetrics: UIBarMetrics.Default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.backgroundColor = UIColor.clearColor()
         
@@ -65,4 +65,9 @@ class LoginVC: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
     }
     
+    @IBAction func loginAction(sender: AnyObject) {
+        let tabBarController = TabBarController()
+        self.presentVC(tabBarController)
+        
+    }
 }

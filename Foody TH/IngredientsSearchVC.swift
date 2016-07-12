@@ -1,5 +1,5 @@
 //
-//  RandomVC.swift
+//  IngredientsSearchVC.swift
 //  Foody TH
 //
 //  Created by Layle <3 ~~~ on 7/11/2559 BE.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RandomVC: BaseViewController {
+class IngredientsSearchVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +19,6 @@ class RandomVC: BaseViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return .LightContent
     }
     
 
