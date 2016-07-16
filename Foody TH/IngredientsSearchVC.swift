@@ -52,8 +52,6 @@ class IngredientsSearchVC: BaseViewController, Dimmable, IngredientViewControlle
         print("\n\nIn Main")
         print(selectedIngd)
         print(ingredients)
-        
-        
     }
     
     

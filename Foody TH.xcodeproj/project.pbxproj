@@ -36,9 +36,9 @@
 		8DC66A7D1D376857007DA02B /* PopUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC66A7B1D376857007DA02B /* PopUpVC.xib */; };
 		8DC66A831D37951C007DA02B /* LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC66A821D37951C007DA02B /* LoadImage.swift */; };
 		8DC66A861D3A0DBE007DA02B /* IngredientsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC66A851D3A0DBE007DA02B /* IngredientsVC.swift */; };
-		8DC66A881D3A0DD2007DA02B /* IngredientsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC66A871D3A0DD2007DA02B /* IngredientsVC.xib */; };
 		8DC66A8F1D3A0FA1007DA02B /* IngredientsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC66A8D1D3A0FA1007DA02B /* IngredientsCell.swift */; };
 		8DC66A901D3A0FA1007DA02B /* IngredientsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC66A8E1D3A0FA1007DA02B /* IngredientsCell.xib */; };
+		8DC66A921D3A6D1C007DA02B /* IngredientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC66A911D3A6D1C007DA02B /* IngredientVC.xib */; };
 		8DEC73A41D2EADF70014A213 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC73A21D2EADF70014A213 /* RegisterVC.swift */; };
 		8DEC73A51D2EADF70014A213 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DEC73A31D2EADF70014A213 /* RegisterVC.xib */; };
 		8DEC73A81D2EB2F90014A213 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC73A71D2EB2F90014A213 /* UIImageExtension.swift */; };
@@ -123,9 +123,9 @@
 		8DC66A7B1D376857007DA02B /* PopUpVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpVC.xib; sourceTree = "<group>"; };
 		8DC66A821D37951C007DA02B /* LoadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadImage.swift; sourceTree = "<group>"; };
 		8DC66A851D3A0DBE007DA02B /* IngredientsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsVC.swift; sourceTree = "<group>"; };
-		8DC66A871D3A0DD2007DA02B /* IngredientsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngredientsVC.xib; sourceTree = "<group>"; };
 		8DC66A8D1D3A0FA1007DA02B /* IngredientsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsCell.swift; sourceTree = "<group>"; };
 		8DC66A8E1D3A0FA1007DA02B /* IngredientsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngredientsCell.xib; sourceTree = "<group>"; };
+		8DC66A911D3A6D1C007DA02B /* IngredientVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngredientVC.xib; sourceTree = "<group>"; };
 		8DEC73A21D2EADF70014A213 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		8DEC73A31D2EADF70014A213 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 		8DEC73A71D2EB2F90014A213 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
@@ -353,7 +353,7 @@
 			children = (
 				8DC66A8A1D3A0F77007DA02B /* IngredientCell */,
 				8DC66A851D3A0DBE007DA02B /* IngredientsVC.swift */,
-				8DC66A871D3A0DD2007DA02B /* IngredientsVC.xib */,
+				8DC66A911D3A6D1C007DA02B /* IngredientVC.xib */,
 			);
 			name = Ingredients;
 			sourceTree = "<group>";
@@ -623,7 +623,6 @@
 				8DFA40781D3654E900D2D40E /* SideMenuVC.xib in Resources */,
 				8D9C64EF1D34DA4D003AB9DA /* FoodSearchVC.xib in Resources */,
 				8D9C64F91D34FA99003AB9DA /* ProfileVC.xib in Resources */,
-				8DC66A881D3A0DD2007DA02B /* IngredientsVC.xib in Resources */,
 				8D9C64E71D34CF85003AB9DA /* CreateMenuNotRgeistered.xib in Resources */,
 				8DFA405E1D3547A400D2D40E /* CategorySearchVC.xib in Resources */,
 				8D288EEC1D26C7C400D72697 /* Assets.xcassets in Resources */,
@@ -641,6 +640,7 @@
 				8DFA406C1D361EA000D2D40E /* FoodCell.xib in Resources */,
 				8D0EF52B1D34030B0061B7F6 /* IngredientsSearchVC.xib in Resources */,
 				8DFA40631D3547F500D2D40E /* CategoryCell.xib in Resources */,
+				8DC66A921D3A6D1C007DA02B /* IngredientVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

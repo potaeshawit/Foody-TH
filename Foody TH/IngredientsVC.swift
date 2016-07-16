@@ -29,14 +29,14 @@ class IngredientsVC: BaseViewController, UITableViewDelegate, UITableViewDataSou
         
         // Do any additional setup after loading the view.
         
-        self.view.layer.cornerRadius = 10
-        self.view.layer.borderColor = UIColor.blackColor().CGColor
-        self.view.layer.borderWidth = 0.25
-        self.view.layer.shadowColor = UIColor.blackColor().CGColor
-        self.view.layer.shadowOpacity = 0.6
-        self.view.layer.shadowRadius = 15
-        self.view.layer.shadowOffset = CGSize(width: 5, height: 5)
-        self.view.layer.masksToBounds = false
+        popUpView.layer.cornerRadius = 10
+        popUpView.layer.borderColor = UIColor.blackColor().CGColor
+        popUpView.layer.borderWidth = 0.25
+        popUpView.layer.shadowColor = UIColor.blackColor().CGColor
+        popUpView.layer.shadowOpacity = 0.6
+        popUpView.layer.shadowRadius = 15
+        popUpView.layer.shadowOffset = CGSize(width: 5, height: 5)
+        popUpView.layer.masksToBounds = false
         
         tableView.delegate = self
         tableView.dataSource = self
