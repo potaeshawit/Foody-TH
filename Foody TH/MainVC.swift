@@ -34,4 +34,11 @@ class MainVC: BaseViewController {
         let vc = RegisterVC()
         self.pushVC(vc)
     }
+    
+    @IBAction func skipAction(sender: AnyObject) {
+        let tabBarController = TabBarController()
+        ViewManagerPlist.sharedInstance.saveValue(false, forKey: "loginState")
+        self.pushVC(tabBarController)
+        
+    }
 }

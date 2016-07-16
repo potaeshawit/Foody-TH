@@ -8,11 +8,13 @@
 
 import UIKit
 
-class RegisterVC: UIViewController {
-
+class RegisterVC: BaseViewController, UITextFieldDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let tab = UITapGestureRecognizer(target: self, action: #selector(LoginVC.dismissKeyboard))
+        self.view.addGestureRecognizer(tab)
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,5 +47,15 @@ class RegisterVC: UIViewController {
         
         let backBT = UIBarButtonItem(image: UIImage(named: "bt_back"), style: UIBarButtonItemStyle.Plain, target: self, action: #selector(RegisterVC.unwindSegue))
         navigationItem.leftBarButtonItem = backBT
+    }
+    @IBAction func registerAction(sender: AnyObject) {
+        let tabBarController = TabBarController()
+        ViewManagerPlist.sharedInstance.saveValue(true, forKey: "loginState")
+        self.pushVC(tabBarController)
+    }
+    @IBAction func cancelAction(sender: AnyObject) {
+        let tabBarController = TabBarController()
+        ViewManagerPlist.sharedInstance.saveValue(false, forKey: "loginState")
+        self.pushVC(tabBarController)
     }
 }

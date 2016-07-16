@@ -11,6 +11,7 @@ PODS:
     - ImageSlideshow/Core
   - ImageSlideshow/Core (0.4.0)
   - RSKImageCropper (1.5.1)
+  - SlideMenuControllerSwift (2.1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - ImageSlideshow (~> 0.4)
   - ImageSlideshow/Alamofire
   - RSKImageCropper
+  - SlideMenuControllerSwift
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
@@ -27,7 +29,8 @@ SPEC CHECKSUMS:
   DLRadioButton: 8fe4865b3ea8a5236e1d114dd283dd0884d3dc46
   ImageSlideshow: 0d3632bc0c2b4d3fff24a49ce4d3022af8238b03
   RSKImageCropper: edd65fedb3734332818deb139906d6b7f54b8a44
+  SlideMenuControllerSwift: 82ada9b04e03538c84d034cf1c09e5849c0113f7
 
-PODFILE CHECKSUM: aaeb11de614342464a30b1309db8b49437e360fa
+PODFILE CHECKSUM: 6952ec50a6af60879e8325b8a2e4f316fe11fcd8
 
 COCOAPODS: 1.0.0

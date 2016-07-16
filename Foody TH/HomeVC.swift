@@ -20,9 +20,9 @@ class HomeVC: BaseViewController, UICollectionViewDelegate, UICollectionViewDele
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //self.navigationController?.setNavigationBarHidden(false, animated: true)
         //let signo = signIn
         //print(signo)
+        
         //slideshow
         slideshow.backgroundColor = UIColor.clearColor()
         slideshow.slideshowInterval = 5.0
@@ -44,17 +44,6 @@ class HomeVC: BaseViewController, UICollectionViewDelegate, UICollectionViewDele
     }
     
     override func viewWillAppear(animated: Bool) {
-        //        self.title = "หน้าหลัก"
-        //        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
-        //        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        //title
-        //        let titleButton = UIButton(frame: CGRectMake(0,0,100,32))
-        //        titleButton.setTitle("หน้าหลัก", forState: UIControlState.Normal)
-        //        titleButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
-        //        self.navigationItem.titleView = titleButton
-        //
-        //        let nav = self.navigationController?.navigationBar
-        //        nav?.barStyle = UIBarStyle.BlackOpaque
     }
     
     override func didReceiveMemoryWarning() {

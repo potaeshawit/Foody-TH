@@ -116,6 +116,9 @@
                                     <state key="normal" title="ยกเลิก">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <connections>
+                                        <action selector="cancelAction:" destination="-1" eventType="touchUpInside" id="5kv-Md-8Lt"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleAspectFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ooH-Mr-seh">
                                     <rect key="frame" x="170" y="14" width="115" height="30"/>
@@ -124,6 +127,9 @@
                                     <state key="normal" title="ตกลง">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <connections>
+                                        <action selector="registerAction:" destination="-1" eventType="touchUpInside" id="UkX-1o-cp0"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </view>

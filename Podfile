@@ -8,6 +8,7 @@ target 'Foody TH' do
 	pod 'DLRadioButton', '~> 1.4'
 	pod ‘Canvas’
 	pod ‘RSKImageCropper’
+	pod 'SlideMenuControllerSwift'
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 

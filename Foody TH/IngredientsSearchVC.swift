@@ -8,8 +8,16 @@
 
 import UIKit
 
-class IngredientsSearchVC: UIViewController {
+class IngredientsSearchVC: BaseViewController, Dimmable, IngredientViewControllerDelegate {
 
+    @IBOutlet var ingredientTableView: UITableView!
+    
+    let dimLevel: CGFloat = 0.5
+    let dimSpeed: Double = 0.5
+    
+    var selectedIngredients : [Bool] = []
+    var ingredients : [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,15 +29,39 @@ class IngredientsSearchVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func selectIngredientAction(sender: AnyObject) {
+        dim(.In, alpha: dimLevel, speed: dimSpeed)
+        
+        let vc = IngredientsVC()
+        vc.delegate = self
+        vc.modalPresentationStyle = .OverCurrentContext
+        vc.preferredContentSize = CGSizeMake(300, 520)
+        
+        vc.modalPresentationStyle = .OverFullScreen
+        vc.modalTransitionStyle = .CoverVertical
+        
+        self.modalInPopover = true
+        vc.commonInit(self.selectedIngredients, ingd: self.ingredients)
+        self.presentVC(vc)
     }
-    */
-
+    
+    func ingredientViewControllerDidDismiss(selectedIngd : [Bool], ingredients : [String]) {
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        dim(.Out, speed: 0.5)
+        
+        print("\n\nIn Main")
+        print(selectedIngd)
+        print(ingredients)
+        
+        
+    }
+    
+    
+    @IBAction func deleteAllIngredientAction(sender: AnyObject) {
+    }
+    
+    @IBAction func searchAction(sender: AnyObject) {
+        
+    }
+    
 }

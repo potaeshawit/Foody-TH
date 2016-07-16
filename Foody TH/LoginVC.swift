@@ -67,7 +67,7 @@ class LoginVC: BaseViewController, UITextFieldDelegate {
     
     @IBAction func loginAction(sender: AnyObject) {
         let tabBarController = TabBarController()
-        self.presentVC(tabBarController)
-        
+        ViewManagerPlist.sharedInstance.saveValue(true, forKey: "loginState")
+        self.pushVC(tabBarController)
     }
 }
