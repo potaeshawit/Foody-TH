@@ -1,4 +1,4 @@
-#Foody-TH
+# FoodyTH (Internship)
 
 Internship selected project
 
